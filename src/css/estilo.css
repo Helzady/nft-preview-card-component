@@ -1,0 +1,131 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    max-width: 1440;
+    margin: 0 auto;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.nft {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cartao-nft {
+    background-color: hsl(216, 50%, 16%);
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.image-equilibrium {
+    width: 200px;
+    height: 200px;
+}
+
+.informacao {
+    padding-right: 68px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.descricao {
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.coluna-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna-inferior .valor {
+    padding-right: 67px;
+    display: flex;
+    align-items: center;
+}
+
+.eth-icon {
+    width: 8px;
+    height: 12px;
+}
+
+.eth {
+    padding-left: 5px;
+    font-size: 11px;
+    color: hsl(178, 100%, 50%);
+}
+
+.tempo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: -50px;
+}
+
+.icon-clock {
+    width: 12px;
+    height: 12px;
+}
+
+.day {
+    padding-left: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    margin: 15px 0;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding-right: 55px;
+}
+
+.user-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.descricao-nome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.criador {
+    font-size: 10px;
+    font-weight: 300;
+    padding-right: 3px;
+}
+
+.user-name {
+    font-size: 11px;
+    font-weight: 400;
+
+}
